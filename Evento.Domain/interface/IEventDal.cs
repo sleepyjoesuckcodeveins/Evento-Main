@@ -2,7 +2,7 @@
 namespace Evento.Domain;
 public interface IEventDal
 {
-    public Event GetEvent();
-
+    public List<Event> GetEvent();
+    public bool AddEvent();
 
 }
