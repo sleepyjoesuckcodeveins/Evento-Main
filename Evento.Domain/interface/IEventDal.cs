@@ -1,6 +1,8 @@
 
 namespace Evento.Domain;
-public interface EventDal
+public interface IEventDal
 {
+    public Event GetEvent();
+
 
 }

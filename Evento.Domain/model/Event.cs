@@ -23,12 +23,6 @@ public class Event
         set { description = value; }
     }
 
-    private DateTime date;
-    public DateTime Date
-    {
-        get { return date; }
-        set { date = value; }
-    }
 
     private string location;
     public string Location
@@ -58,10 +52,10 @@ public class Event
         set { endingTime = value; }
     }
 
-    private string address;
-    public string Address
+    private Status status;
+    public Status Status
     {
-        get { return address; }
-        set { address = value; }
+        get { return status; }
+        set { status = value; }
     }
 }
